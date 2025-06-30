@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc -b",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.2",
     "@types/express": "^5.0.3",
     "@types/node": "^24.0.7",
     "cors": "^2.8.5",
